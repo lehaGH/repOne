@@ -1,0 +1,37 @@
+﻿@model WebApplication6_Fotohost.Models.DataImg
+@{Html.EnableUnobtrusiveJavaScript(true);}
+
+@*<img src=@Url.Action("GetImage", "Home", new { link = @Model.link }) class="img-thumbnail" width="512" height="512" />
+    <img src=@Url.Action("GetImageS", "Home", new { link = @Model.link, w=128, h=128}) class="img-thumbnail" />*@
+
+<link href="~/Content/MyCSS.css" rel="stylesheet" type="text/css" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js" type="text/javascript"></script>
+<div class="container" id="links">
+    <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-0" id="Link1">
+            <label for="ex3">Линк на картинку</label>
+            <input class="form-control" type="text" value="@Url.Action("GetImage", "Home", new { link = @Model.link })">
+        </div>
+
+        <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-0" id="Link2">
+            <label for="ex3">Линк на страницу упровления картинкой</label>
+            <input class="form-control" type="text" value="@Url.Action("GetImage", "Home", new { link = @Model.adminLink })">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+            <img src=@Url.Action("GetImage", "Home", new { link = @Model.link }) width="100%" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+            <a class="btn btn-danger" data-ajax-update="#links" data-ajax="true" href="@Url.Action("Remove", "Home", new { adminLink=@Model.adminLink})">
+            <span class=" glyphicon glyphicon-trash" aria-hidden="true"></span>Изничтожить картинку </a>
+        </div>
+    </div>
+
+</div>
+

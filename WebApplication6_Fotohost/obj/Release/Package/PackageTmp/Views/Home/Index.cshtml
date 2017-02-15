@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/MyCSS.css" rel="stylesheet" type="text/css" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+
+<div class="jumbotron">
+    <p class="lead">
+        Простой Веб-сайт для картинок. Вам надо запостить картинку на форуме? 
+        Загрузитье её на данный сервис и вы получите ссылку на неё, а также ссылку для управление данной картинкой. 
+    </p>
+    <p>
+        Используя данный сервис. Вы полностью понимаете что сервис и в особенности его создатель ненисет некаких ответственностей.
+        Никакие законы, правила и.т.д немогут быть выше данного положения (даже правила русского языка).
+    </p>
+    @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Бинаризация картинки методом отцу. &raquo;</a></p>*@
+    @*<p>@Html.ActionLink("Загрузить картинку", "Index", "Tests", new { area = "" }, new { @class = "btn btn-default" })</p>*@
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 col-lg-offset-3">
+
+                @using (Html.BeginForm("Create", "Home", FormMethod.Post, new { enctype = "multipart/form-data", action = @Url.Action("Upload", "Home") }))
+                {
+                    <button type="submit">Загрузить</button>
+                    <input type="text" name="texts" placeholder="Описание картинки" />
+                    <input type="file" accept="image/jpeg" name="uploadImage" id="uploadImage" placeholder="Файл картинки" />
+                }
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+        <img src="~/Content/zebra.jpg" id="img_preview" width="100%" />
+    </div>
+</div>
+
+<script type="text/javascript">
+    function readURL(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#img_preview').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#uploadImage").change(function () {
+        readURL(this);
+    });
+</script>
+
+
+
+

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется в процессе публикации или упаковки вашего веб-проекта. Вы можете настроить поведение процесса,
+изменив этот файл MSBuild. Дополнительные сведения см. по адресу http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAixoRUqARckybHJ3+MkEpigAAAAACAAAAAAAQZgAAAAEAACAAAAD+FqPyeMRDYTjC8rV/NVcDvnWVz3SM2bVZN2K4G4RFFwAAAAAOgAAAAAIAACAAAACMWM9UF8V0IA9PP5cTeIXTQ2LxkZVCpGvNvknK+Qht/yAAAAAZURJva710s896JapE1t8wfa5gzMja8tzamVVwyIB1CEAAAABxhYixQfHeCyns6vPseuEhCLxtpiiOlqVWiCsHGrRlpDJ8GmFk9pEGa1JpDa0qo+pjTxroCQkltc1sn1o/D8I4</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FTP.SMARTERASP.NET/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/10/2017 15:10:47</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/10/2017 15:10:47</publishTime>
+    </File>
+    <File Include="bin/ru/EntityFramework.resources.dll">
+      <publishTime>02/10/2017 15:35:48</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Helpers.resources.dll">
+      <publishTime>02/10/2017 14:04:14</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Mvc.resources.dll">
+      <publishTime>02/10/2017 14:04:16</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Razor.resources.dll">
+      <publishTime>02/10/2017 14:04:13</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>02/10/2017 14:04:14</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>02/10/2017 14:04:14</publishTime>
+    </File>
+    <File Include="bin/ru/System.Web.Webpages.resources.dll">
+      <publishTime>02/10/2017 14:04:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/10/2017 14:04:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/10/2017 14:04:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/10/2017 14:04:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>02/10/2017 14:04:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>02/10/2017 14:04:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>02/10/2017 14:04:08</publishTime>
+    </File>
+    <File Include="bin/WebApplication6_Fotohost.dll">
+      <publishTime>02/15/2017 17:23:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/12/2017 14:14:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="Content/lena.jpg">
+      <publishTime>02/13/2017 20:07:27</publishTime>
+    </File>
+    <File Include="Content/MyCSS.css">
+      <publishTime>02/12/2017 16:21:52</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/12/2017 00:28:27</publishTime>
+    </File>
+    <File Include="Content/zebra.jpg">
+      <publishTime>02/12/2017 21:49:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/10/2017 14:04:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/13/2017 22:56:31</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/10/2017 14:17:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/10/2017 14:17:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/10/2017 14:17:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/10/2017 14:17:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>02/13/2017 22:56:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>02/13/2017 22:56:31</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/10/2017 14:18:00</publishTime>
+    </File>
+    <File Include="Scripts/MyJS.js">
+      <publishTime>02/12/2017 22:33:19</publishTime>
+    </File>
+    <File Include="Views/Home/AdminPage.cshtml">
+      <publishTime>02/15/2017 18:15:35</publishTime>
+    </File>
+    <File Include="Views/Home/ErrorPage.cshtml">
+      <publishTime>02/13/2017 23:44:20</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>02/15/2017 14:51:36</publishTime>
+    </File>
+    <File Include="Views/Home/Remove.cshtml">
+      <publishTime>02/13/2017 23:42:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/12/2017 14:13:49</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>02/15/2017 15:02:09</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/10/2017 14:17:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/15/2017 17:58:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
